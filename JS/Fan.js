@@ -12,5 +12,5 @@ document.querySelectorAll(".back").forEach((entry) => Observer.observe(entry));
 const MouseTarget = document.getElementById("thelast");
 
 MouseTarget.addEventListener("mouseenter", (e) => {
-	window.location.href = "Conseq.html #container";
+	window.location.href = "Conseq.html";
 });
