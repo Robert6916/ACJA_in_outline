@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	opacity: 100%;
+	animation: showpage 1.5s 1;
+	background: #9D0443
+}
+
+#navigation {
+	position:fixed;
+	top:20px;
+	left:20px;
+}
+#navigation .nav {
+	float:left;
+	background:red;
+	opacity: 30%;
+	height: 80px;
+	width: 100px;
+	margin:10px;
+	border-radius:5%;
+	box-shadow: 1px 1px 10px #000;
+}
+#backbutton:hover {
+	background:#7D0034;
+	opacity:60%;
+	color:#fff;
+	box-shadow: 0px 0px 0px #000;
+	cursor:pointer;
+}
+#nextbutton:hover {
+	background:yellow;
+	opacity:60%;
+	box-shadow: 0px 0px 0px #000;
+	cursor:pointer;
+}
+.button {
+	text-align:center;
+	opacity: 100%;
+	margin-top:30px;
+	font-size: 2em;
+	font-family: "Spectral SC", serif;
+	font-weight: 100;
+    font-style: normal;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+#back {
+	background: #9D0443 url(images/menu1.png) no-repeat center top;
+    width:1470px;
+	height:827px;
+}
+
+#History {
+    position: absolute;
+	height:820px;
+	width:950px;
+	
+}
+
+#container {
+	position:absolute;
+	width: 950px;
+	height: 500px;
+	
+	opacity:0%;
+	margin-top:310px;
+}
+
+
+.path {
+fill:#D12036;
+opacity:0%;
+}
+.path:hover {
+fill:#FFE500;
+opacity:20%;
+cursor:pointer;
+animation: text 0.3s 1;
+}
+
+.pat {
+	
+fill:#FFE500;
+opacity:0%;
+}
+.pat:hover {
+fill:#FFE500;
+opacity:20%;
+cursor:pointer;
+animation: text_1 0.3s 1;
+}
+
+#container:hover {
+	
+    opacity:50%;
+    cursor:pointer;
+	animation: text 0.3s 1;
+}
+
+#Circumstances {
+	background:#FFE500;
+	fill:#FFE500;
+	width:510px;
+	height:400px;
+	position: absolute;
+	float:right;
+	margin-left: 960px;
+	margin-top: 36px;
+	opacity:0%;
+}
+
+#Circumstances:hover {
+	cursor:pointer;
+	animation: text 0.3s 1;
+	opacity:20%;
+}
+
+#Contradictions {
+	background:#FFE500;
+	fill:#FFE500;
+	width:510px;
+	height:373px;
+	position: absolute;
+	float:right;
+	margin-left: 960px;
+	margin-top: 453px;
+	opacity:0%;
+}
+
+#Contradictions:hover {
+	cursor:pointer;
+	animation: text 0.3s 1;
+	opacity:20%;
+}
+
+
+
+/*ANIMATIONS*/
+
+@keyframes showpage {
+	0%{
+		opacity: 0%;
+	}
+}
+
+@keyframes text {
+	0%{
+	opacity: 0;
+	}
+}
+
+@keyframes text_1 {
+	0%{
+	opacity: 0%;
+	}
+}

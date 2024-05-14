@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #9D0443 url(images/2.png) no-repeat center top;
+	background-size: 100%;
+	height: 1650px;
+	animation: showpage 2s 1;
+}
+
+
+#header {
+	margin-top: 70px;
+	text-align: center;
+	width: 100%;
+	font-size: 5em;
+	color: #fff;
+	font-family: "Spectral SC", serif;
+	font-weight: 400;
+    font-style: normal;
+	word-spacing: 20px;
+	letter-spacing: 1px;
+	line-height: 80px;
+	float:left;
+	text-shadow: 3px 4px 2px #000;
+	opacity:1;
+	/*animation: text 3s 1;*/
+	animation-name: text_scroll;
+    animation-timeline: scroll(y);
+}
+
+#under-header {
+	margin-top: 1px;
+	text-align: center;
+	width: 100%;
+	font-size: 3em;
+	color: #fff;
+	font-family: "Spectral SC", serif;
+	font-weight: 400;
+    font-style: normal;
+	word-spacing: 20px;
+	letter-spacing: 10px;
+	line-height: 100px;
+	float:left;
+	text-shadow: 3px 4px 2px #000;
+	animation-name: text_scroll;
+    animation-timeline: scroll(y);
+	opacity:0;
+}
+
+#lead {
+	margin-top: 200px;
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	color: #fff;
+	font-family: "Spectral SC", serif;
+	font-weight: 400;
+    font-style: normal;
+	word-spacing: 10px;
+	letter-spacing: 1px;
+	line-height: 100px;
+	float:left;
+	text-shadow: 3px 4px 2px #000;
+	animation-name: text_scroll_1;
+    animation-timeline: scroll(y);
+	opacity:0;
+}
+
+
+@keyframes text {
+	0%{
+	opacity: 0;
+	}
+}
+
+@keyframes text_scroll {
+  to {
+    transform: translate(0px, 100px);
+	opacity: 1;
+	letter-spacing: 1px;
+  }
+}
+
+@keyframes text_scroll_1 {
+  to {
+    transform: translate(0px, -3px);
+	opacity: 1;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	line-height: 35px;
+  }
+}
+
+@keyframes showpage {
+	0%{
+		opacity: 0%;
+	}
+}
+
+#button_next {
+	background: #9D0443;
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	line-height: 50px;
+	border-radius: 50%;
+	position: absolute; 
+	top: 1520px;
+	left: 45%;
+	opacity: 50%;
+	padding-right:10px;
+	box-shadow: 1px 3px 20px #000;
+	cursor: pointer;
+	
+}
+
+#button_next:hover {
+	background: #9D0443;
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	line-height: 50px;
+	border-radius: 50%;
+	position: absolute; 
+	top: 1520px;
+	left: 45%;
+	opacity: 100%;
+	box-shadow: 1px 3px 20px #fff;
+	
+}
