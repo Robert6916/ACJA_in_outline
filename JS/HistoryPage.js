@@ -80,7 +80,7 @@ document.getElementById("close_button_10").addEventListener("click", function(){
 const Observer = new IntersectionObserver((entries, observer) => {
 	entries.forEach(entry => {
 		if (entry.isIntersecting) {
-			window.location.href = "Fan.html #title_1";
+			window.location.href = "https://robert6916.github.io/ACJA_in_outline/Fan.html#title_1";
 		}
 	})
 },{});
