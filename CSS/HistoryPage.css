@@ -667,3 +667,12 @@ body {
 	position:absolute;
 	
 }
+
+.photo_index {
+	font-size:1em;
+	font-family: "Spectral SC", serif;
+	font-weight: 500;
+	word-spacing: 10px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
